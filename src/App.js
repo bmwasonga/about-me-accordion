@@ -3,6 +3,7 @@ import data from './data';
 import SingleQuestion from './Questions';
 
 function App() {
+  // eslint-disable-next-line no-unused-vars
   const [questions, setQuestions] = useState(data);
   return (
     <div className="container">
